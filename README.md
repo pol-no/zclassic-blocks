@@ -8,9 +8,13 @@ Container is used in zclassic-docker - no need to download all ZClassic blockcha
 
 - To download latest ZClassic blockchain visit [Release page](https://github.com/fxminer/zclassic-blocks/releases).
 
-- Remove your .zclassic/blocks and .zclassic/chainstate folders
+Delete: 
+```
+.zclassic/blocks
+.zclassic/chainstate
+```
 
-- Download latest zclassic-blocks_\<BLOCK_NUMBER\>.7z and extract to your .zclassic folder
+Download latest zclassic-blocks_\<BLOCK_NUMBER\>.7z and extract to your .zclassic folder (use [7zip](http://www.7-zip.org/download.html))
 
 ## Create blockchain 7z
 
