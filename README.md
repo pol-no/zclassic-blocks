@@ -10,7 +10,7 @@ Container is used in zclassic-docker - no need to download all ZClassic blockcha
 
 - Remove your .zclassic/blocks and .zclassic/chainstate folders
 
-- Download latest zclassic-blocks_<BLOCK_NUMBER>.7z and extract to your .zclassic folder
+- Download latest zclassic-blocks_\<BLOCK_NUMBER\>.7z and extract to your .zclassic folder
 
 ## Create blockchain 7z
 
