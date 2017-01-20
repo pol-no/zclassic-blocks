@@ -22,18 +22,18 @@ then
     exit $?
 fi
 
-if ! [ -d "${ZCLASSIC_DATA_DIR}/blocks" ] && ! [ -d "${ZCLASSIC_DATA_DIR}/chainstate" ]
-then
-	mkdir -p "${ZCLASSIC_DATA_DIR}/blocks" "${ZCLASSIC_DATA_DIR}/chainstate"
-	
-	
-    echo "Copying blockchain files..."
-	cp -R "${ZCLASSIC_BLOCKS}/blocks" "${ZCLASSIC_DATA_DIR}"
-	cp -R "${ZCLASSIC_BLOCKS}/chainstate" "${ZCLASSIC_DATA_DIR}"
-	
-    chmod 666 "${ZCLASSIC_DATA_DIR}/blocks" "${ZCLASSIC_DATA_DIR}/chainstate"
-    chown -R "${ZCLASSIC_DATA_DIR}/blocks" "${ZCLASSIC_DATA_DIR}/chainstate"
-fi
+#if ! [ -d "${ZCLASSIC_DATA_DIR}/blocks" ] && ! [ -d "${ZCLASSIC_DATA_DIR}/chainstate" ]
+#then
+#    mkdir -p "${ZCLASSIC_DATA_DIR}/blocks" "${ZCLASSIC_DATA_DIR}/chainstate"
+#	
+#	
+#    echo "Copying blockchain files..."
+#	cp -R "${ZCLASSIC_BLOCKS}/blocks" "${ZCLASSIC_DATA_DIR}"
+#	cp -R "${ZCLASSIC_BLOCKS}/chainstate" "${ZCLASSIC_DATA_DIR}"
+#	
+#    chmod 666 "${ZCLASSIC_DATA_DIR}/blocks" "${ZCLASSIC_DATA_DIR}/chainstate"
+#    chown -R zcl:zcl "${ZCLASSIC_DATA_DIR}/blocks" "${ZCLASSIC_DATA_DIR}/chainstate"
+#fi
 
 echo "ZClassic blockchain is ready."
 

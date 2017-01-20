@@ -8,7 +8,8 @@ if [[ `docker volume ls | grep zclassic-get-blocks | wc -l` -gt 0 ]]
 then 
 	docker volume rm zclassic-get-blocks
 fi
-docker volume create --name zclassic-get-blocks
+
+docker volume create --name zclassic-get-blocks > /dev/null
 
 docker pull fxminer/zclassic:latest
 docker pull fxminer/zclassic-params:latest

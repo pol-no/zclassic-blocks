@@ -34,7 +34,6 @@ ENTRYPOINT ["/usr/local/zclassic/zclassic_entrypoint.sh"]
 
 RUN chown -R zcl:zcl "${ZCL_SCRIPTS}" "${ZCL_HOME}"
 
-VOLUME ["/usr/share/zclassic/blockchain/blocks"]
-VOLUME ["/usr/share/zclassic/blockchain/chainstate"]
+VOLUME ["/usr/share/zclassic/blockchain"]
 
 WORKDIR /usr/local/zclassic
