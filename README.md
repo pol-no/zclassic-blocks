@@ -16,7 +16,7 @@ Delete:
 
 Download latest zclassic-blocks_\<BLOCK_NUMBER\>.7z and extract to your .zclassic folder (use [7zip](http://www.7-zip.org/download.html))
 
-## Create blockchain 7z
+## Create blockchain archive
 
 ```
 ./init.sh
