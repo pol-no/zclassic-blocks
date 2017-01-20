@@ -2,11 +2,12 @@
 
 Backups ZClassic blockchain.
 
-Download blockchain in release section.
-
 ```
 ./init.sh
 ./getblocks.sh
+# Current status
+zcl-logs 
+# After blockchain is synchronized
 zcl-archive
 exit
 ```
