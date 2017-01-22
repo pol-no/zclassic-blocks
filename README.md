@@ -19,10 +19,17 @@ Download latest zclassic-blocks_\<BLOCK_NUMBER\>.7z and extract to your .zclassi
 ## Create blockchain archive
 
 ```
+cd generate
 ./init.sh
+# copy latest blocks 7z archive to share directory
+./import.sh
 ./zclassic-blocks.sh
-# Current status
+# Current logs
 zcl-logs 
+# Current blockchain info
+zcash-cli getinfo
+# Network status from Zclassic explorer
+zcl-network
 # After blockchain is synchronized
 zcl-archive
 exit
