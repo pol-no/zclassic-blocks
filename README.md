@@ -31,6 +31,8 @@ zcash-cli getinfo
 # Network status from Zclassic explorer
 zcl-network
 # After blockchain is synchronized
+zcl-stop
 zcl-archive
 exit
 ```
+
