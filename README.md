@@ -20,7 +20,7 @@ Download latest zclassic-blocks_\<BLOCK_NUMBER\>.7z and extract to your .zclassi
 
 ```
 ./init.sh
-./getblocks.sh
+./zclassic-blocks.sh
 # Current status
 zcl-logs 
 # After blockchain is synchronized
